@@ -1,0 +1,13 @@
+/***************NavBar Style**************/
+nav{
+  background-color: var(--navcolor);
+}
+
+
+nav ul a{
+ transition: var(--maintrans);
+
+}
+nav ul a:hover{
+color: var(--maincolor) !important;
+}

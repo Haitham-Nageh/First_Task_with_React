@@ -1,0 +1,57 @@
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+.head{
+  text-transform: uppercase;
+  font-weight: 650;
+  font-size: 55px;
+   color: var(--navcolor);
+}
+
+.star {
+ color: var(--navcolor);
+   font-size: 30px;  
+}
+
+.line {
+  height: 4px;
+  background-color: var(--navcolor);
+  width: 100px;
+  
+}
+.myf {
+  max-width: 600px; 
+}
+
+.myf input,
+.myf textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.myf textarea {
+  height: 100px;
+}
+
+.sendBtn {
+  background-color: #66d1c4;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.sendBtn:hover {
+  background-color: #4cbdb0;
+}

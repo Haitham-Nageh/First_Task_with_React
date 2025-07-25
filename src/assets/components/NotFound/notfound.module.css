@@ -1,0 +1,10 @@
+.mydiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+
+}

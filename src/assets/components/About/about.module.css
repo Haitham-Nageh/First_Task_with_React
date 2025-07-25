@@ -1,0 +1,57 @@
+
+
+.container {
+  background-color: var(--maincolor);
+  padding-bottom: 70px;
+}
+
+.head {
+  text-transform: uppercase;
+  font-weight: 650;
+  font-size: 55px;
+  color: white;
+  margin-top: 70px;
+}
+
+.star {
+  color: white;
+  font-size: 30px;
+}
+
+.line {
+  height: 4px;
+  background-color: white;
+  width: 100px;
+}
+.text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px;
+  justify-items: center;
+  padding: 20px 0;
+}
+
+.myp {
+  color: white;
+  font-size: 20px;
+  max-width: 500px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.mya {
+  padding: 15px 27px;
+  background-color: var(--maincolor);
+  font-size: 21px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.mya:hover{
+    background-color: white;
+    color: var(--navcolor);
+}

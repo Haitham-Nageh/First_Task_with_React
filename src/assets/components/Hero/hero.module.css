@@ -1,0 +1,29 @@
+/*************Hero Section***************/
+
+/*************Hero Section***************/
+.section {
+
+  background-color: var(--maincolor);
+  padding: 100px  40px;
+
+}
+.image {
+  max-width: 100%;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.star {
+
+   font-size: 30px;  
+}
+.line {
+  height: 4px;
+  background-color: white;
+  width: 100px;
+}
+
+
+
+/*************Portofolio Section***************/
+/* ضع كلاسات خاصة به أيضًا بدل selectors عامة */
