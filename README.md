@@ -18,12 +18,9 @@
 - JSX
 - React Router (إذا استخدمته)
 
-## 📦 طريقة تشغيل المشروع
 
-```bash
-npm install
-npm run dev
 📂 مثال على استخدام الصور
+
 import sixthimg from '../../img/portfolio/submarine.png';
 <div className="col-md-4">
   <img src={sixthimg} alt="" className="img-fluid rounded" />
@@ -38,3 +35,11 @@ import styles from './navbar.module.css';
 https://startbootstrap.com/previews/freelancer
 
 🔗 رابط الموقع المباشر (على Render)
+https://first-task-with-react.onrender.com
+
+
+## 📦 طريقة تشغيل المشروع
+
+```bash
+npm install
+npm run dev
